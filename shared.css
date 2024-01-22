@@ -19,16 +19,16 @@ ul {
   padding: 0;
 }
 
-ul a {
-  text-decoration: none;
-  color:rgb(0, 0, 0)
-}
-
 header {
+  width: 100%;
 	display: flex;
 	justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
 }
 
 header ul {
@@ -39,3 +39,16 @@ header li {
   margin-left: 20px;
 }
 
+header a {
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+header a:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(78, 78, 78, 0.8)
+}
